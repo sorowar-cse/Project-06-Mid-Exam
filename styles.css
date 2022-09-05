@@ -70,10 +70,29 @@
     justify-content: right;
 }
 
+/* .nav-item a::after {
+    content: '';
+    width: 0;
+    height: 1px;
+    background: #ff004f;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.nav-item a:hover::after {
+    width: 100%;
+} */
+
 .nav-item a {
     font-size: 24px;
     color: #fff;
     /* padding-left: 15px; */
+}
+
+.nav-item a:hover {
+    border-radius: 15px;
+    background: #649A7C;
+    color: #fff;
 }
 
 .btn2 {
@@ -83,6 +102,14 @@
     padding: 10px;
 }
 
+.btn2 a {
+    text-decoration: none;
+    color: white;
+}
+.btn2 a:hover {
+    text-decoration: none;
+    color: #0B5D3E;
+}
 /* Navbar ends */
 
 
