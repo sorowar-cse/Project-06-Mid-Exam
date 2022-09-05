@@ -1,3 +1,4 @@
+/* Animated Backround Settings  starts*/
 .gradient-background {
     background: linear-gradient(302deg, #9fb042, #468f98, #53aa57);
     background-size: 180% 180%;
@@ -18,10 +19,11 @@
     }
 }
 
+/* Animated Backround Settings  ends*/
 
 
 
-/* go to top css start here */
+/* Go to top starts */
 .c-go-top i {
     font-size: 30px;
     color: #fff;
@@ -53,12 +55,12 @@
     text-decoration: none;
 }
 
-/* go to top css end here */
+/* Go to top ends */
 
 
 
 
-/* na  */
+/* Navbar Starts */
 #our-nav {
     background: #0b5d3e;
     border-radius: 15px;
@@ -81,17 +83,47 @@
     padding: 10px;
 }
 
+/* Navbar ends */
+
+
+
+/* main product banner starts  */
+#home {
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+.carousel-item img {
+    width: 250px;
+    height: 450px;
+}
+
+/* main product banner ends  */
 
 
 
 
+/* product card details starts */
+.my-card {
+    position: fixed;
+    right: 20px;
+    top: 145px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+/* product card details starts */
+
+
+
+/* product Review slide section starts */
+
+/* product Review slide section ends */
 
 
 
 
-
-
-/* contact */
+/* contct form section starts */
 .contact-left {
     flex-basis: 55%;
 }
@@ -163,26 +195,12 @@ form .btn2 {
     border: 3px solid #0b5d3e;
 }
 
+/* contct form section ends */
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Footer */
-
+/* footer section  starts */
 footer {
     margin-top: 115px;
     background: #0B5D3E;
@@ -243,13 +261,4 @@ footer {
     margin-top: 70px;
 }
 
-
-
-#home {
-    margin-top: 50px;
-    margin-bottom: 90px;
-}
-.carousel-item img {
-    width: 250px;
-    height: 450px;
-}
+/* footer section  ends */
