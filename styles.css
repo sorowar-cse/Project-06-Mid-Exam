@@ -1,5 +1,5 @@
 .gradient-background {
-    background: linear-gradient(302deg, #E5A060, #7ABBC3, #D7B297);
+    background: linear-gradient(302deg, #9fb042, #468f98, #53aa57);
     background-size: 180% 180%;
     animation: gradient-animation 9s ease infinite;
 }
@@ -19,7 +19,7 @@
 }
 
 #our-nav {
-    background: #E5A060;
+    background: #0b5d3e;
     border-radius: 15px;
 }
 
@@ -29,11 +29,167 @@
 
 .nav-item a {
     font-size: 24px;
-    color: #0b4d56;
+    color: #fff;
+    /* padding-left: 15px; */
 }
 
 .btn2 {
-    background: #7ABBC3;
+    background: #649A7C;
     color: white;
     border-radius: 15px;
+    padding: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* contact */
+.contact-left {
+    flex-basis: 55%;
+}
+
+.contact-right {
+    flex-basis: 45%;
+}
+
+.contact-left p {
+    margin-top: 30px;
+    color: #000;
+    font-size: 24px;
+}
+
+.contact-left p i {
+    color: #fff;
+    margin-right: 15px;
+    font-size: 30px;
+    transition: transform 0.5s;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.sub-title span, .footer-bottom span {
+    color: #FDCF45;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 45px;
+    margin-right: 25px;
+    color: #fff;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icons a:hover, .contact-left p i:hover {
+    color: #FDCF45;
+    transform: translate(-5px);
+}
+
+.contact-right form {
+    width: 100%;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #0b5d3e ;
+    padding: 15px;
+    margin: 15px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .btn2 {
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    margin-left: 15px;
+    border: 3px solid #0b5d3e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer {
+    margin-top: 115px;
+    background: #0B5D3E;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 15px;
+  }
+
+  .footer-title h1{
+    color: #FDCF45;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  .subscribe h1{
+    font-size: 30px;
+    color: #FDCF45;
+    font-weight: bolder;
+  }
+
+  .subscribe input{
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #FDCF45;
+    padding-left: 10px;
+    margin-left: -4px;
+    margin-bottom: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+
+  .footer-links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .footer-links a:hover{
+    color: #FDCF45;
+  }
+
+  .footer-links li{
+    list-style: none;
+    margin-left: -30px;
+  }
+
+  .footer-bottom .social-icons a {
+    font-size: 18px;
+  }
+  
