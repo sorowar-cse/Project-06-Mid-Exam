@@ -197,6 +197,10 @@
     transform: translate(-5px);
 }
 
+.footer-icon a:hover {
+    color: #FDCF45;
+}
+
 .contact-right form {
     width: 100%;
 }
