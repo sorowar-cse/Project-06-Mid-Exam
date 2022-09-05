@@ -18,6 +18,47 @@
     }
 }
 
+
+
+
+/* go to top css start here */
+.c-go-top i {
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.c-go-top {
+    background: none repeat scroll 0 0 padding-box #0B5D3E;
+    bottom: 20px;
+    border: 1px solid #468f98;
+    border-radius: 4px;
+    color: rgb(154, 118, 118);
+    /* display: none; */
+    font-size: 12px;
+    opacity: 0.8;
+    padding: 10px;
+    position: fixed;
+    right: 5%;
+    text-decoration: none;
+    z-index: 999;
+}
+
+.c-go-top:hover,
+.c-go-top:focus,
+.c-go-top:active,
+.c-go-top:visited {
+    color: #fff;
+    outline: 0;
+    text-decoration: none;
+}
+
+/* go to top css end here */
+
+
+
+
+/* na  */
 #our-nav {
     background: #0b5d3e;
     border-radius: 15px;
@@ -61,8 +102,9 @@
 
 .contact-left p {
     margin-top: 30px;
-    color: #000;
+    color: #0B5D3E;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .contact-left p i {
@@ -76,7 +118,8 @@
     margin-top: 30px;
 }
 
-.sub-title span, .footer-bottom span {
+.sub-title span,
+.footer-bottom span {
     color: #FDCF45;
 }
 
@@ -89,7 +132,8 @@
     transition: transform 0.5s;
 }
 
-.social-icons a:hover, .contact-left p i:hover {
+.social-icons a:hover,
+.contact-left p i:hover {
     color: #FDCF45;
     transform: translate(-5px);
 }
@@ -103,7 +147,7 @@ form textarea {
     width: 100%;
     border: 0;
     outline: none;
-    background: #0b5d3e ;
+    background: #0b5d3e;
     padding: 15px;
     margin: 15px;
     color: #fff;
@@ -145,21 +189,23 @@ footer {
     color: #fff;
     font-size: 18px;
     border-radius: 15px;
-  }
+    background-image: url("img/nav-logo.gif");
+    background-repeat: repeat-x;
+}
 
-  .footer-title h1{
+.footer-title h1 {
     color: #FDCF45;
     font-size: 30px;
     font-weight: bolder;
-  }
+}
 
-  .subscribe h1{
+.subscribe h1 {
     font-size: 30px;
     color: #FDCF45;
     font-weight: bolder;
-  }
+}
 
-  .subscribe input{
+.subscribe input {
     width: 90%;
     height: 30px;
     border-radius: 10px;
@@ -171,25 +217,36 @@ footer {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-  }
+}
 
-  .footer-links a{
+.footer-links a {
     text-decoration: none;
     color: #fff;
     font-size: 14px;
     cursor: pointer;
-  }
+}
 
-  .footer-links a:hover{
+.footer-links a:hover {
     color: #FDCF45;
-  }
+}
 
-  .footer-links li{
+.footer-links li {
     list-style: none;
     margin-left: -30px;
-  }
+}
 
-  .footer-bottom .social-icons a {
+.footer-bottom .social-icons a {
     font-size: 18px;
-  }
-  
+}
+
+.footer-top-1 {
+    margin-top: 70px;
+}
+
+
+
+
+.carousel-item img {
+    width: 250px;
+    height: 450px;
+}
