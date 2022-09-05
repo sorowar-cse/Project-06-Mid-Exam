@@ -193,7 +193,7 @@
 
 .social-icons a:hover,
 .contact-left p i:hover {
-    color: #FDCF45;
+    color: #0B5D3E;
     transform: translate(-5px);
 }
 
@@ -206,10 +206,9 @@ form textarea {
     width: 100%;
     border: 0;
     outline: none;
-    background: #0b5d3e;
+    background: #fff;
     padding: 15px;
     margin: 15px;
-    color: #fff;
     font-size: 18px;
     border-radius: 6px;
 }
