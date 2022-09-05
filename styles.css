@@ -1,0 +1,39 @@
+.gradient-background {
+    background: linear-gradient(302deg, #E5A060, #7ABBC3, #D7B297);
+    background-size: 180% 180%;
+    animation: gradient-animation 9s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#our-nav {
+    background: #E5A060;
+    border-radius: 15px;
+}
+
+#navbarNavDropdown {
+    justify-content: right;
+}
+
+.nav-item a {
+    font-size: 24px;
+    color: #0b4d56;
+}
+
+.btn2 {
+    background: #7ABBC3;
+    color: white;
+    border-radius: 15px;
+}
