@@ -245,7 +245,10 @@ footer {
 
 
 
-
+#home {
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
 .carousel-item img {
     width: 250px;
     height: 450px;
