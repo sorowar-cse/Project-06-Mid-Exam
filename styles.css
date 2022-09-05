@@ -289,3 +289,99 @@ footer {
 }
 
 /* footer section  ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- Review Section --> */
+
+.c-rev  {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 7px;
+  }
+  .c-img img{
+    background: #003f5c;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    width: 125px;
+    height: 125px;
+    margin-left: 40%;
+    border: 1px solid black;
+    position: relative;
+    z-index: 1; 
+    border-radius: 100%;
+  }
+
+  .c-title p{
+    color: #63c380;
+  }
+  #review .title{
+    color: white;
+    font-size: 1em;
+    font-family: 'Berkshire Swash', cursive;
+   padding: 10px;
+  }
+  .c-info{
+  background-color: rgb(32, 30, 129);
+  width: 23vw;
+  padding: 10px;
+  justify-content: center;
+  /* padding-left: 80px; */
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+align-items: center;
+  }
+
+  
+  .c-title h1 {
+    color: #FDCF45;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  
+  @media screen and (max-width: 768px){
+     
+    /* Testimonial */
+    .test{
+        width: 100%;
+        flex-direction: column;
+    }
+    .test-img img{
+      margin-top: 20px;
+        margin-left: -30px;
+        position: absolute;
+        top: 0;
+        left: 40%;
+        z-index: 1;
+    }
+    .test i{
+        font-size: 3em;
+        color: #6B36E0;
+        margin-top: 72px;
+        margin-left: 40px;
+    }
+    .test-info{
+    text-align: center;
+    width: 90%;
+    padding: 10px;
+    padding-top: 80px;
+    margin-top: 70px;
+    }
+    #testimonial {
+        height: auto;
+    }
+  }
+  
