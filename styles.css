@@ -139,7 +139,8 @@
     background-color: #0B5D3E;
     color: #fff;
     border-radius: 10px;
-    height: 520px;
+    height: 565px;
+    text-align: center;
 }
 
 .my-card h3 {
