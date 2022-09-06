@@ -9,7 +9,7 @@ const showDetails = (products) => {
     const details = document.getElementById('display-card');
     // console.log(products)
 
-    for (let index = 0; index < 9; index++) {
+    for (let index = 0; index < 6; index++) {
         const element = products[index];
         console.log(element)
 

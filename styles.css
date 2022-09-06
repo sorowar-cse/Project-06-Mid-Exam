@@ -136,8 +136,8 @@
 .my-card {
     /* position: fixed; */
     right: 20px;
-    background-color: #0B5D3E;
-    color: #fff;
+    background-color: #d0f0c0;
+    color: #0B5D3E;
     border-radius: 10px;
     height: 565px;
     text-align: center;
@@ -153,7 +153,7 @@
 
 .my-card span {
     font-size: 24px;
-    color: #FDCF45;
+    color: #649A7C;
 }
 
 .col .product {
