@@ -106,10 +106,12 @@
     text-decoration: none;
     color: white;
 }
+
 .btn2 a:hover {
     text-decoration: none;
     color: #0B5D3E;
 }
+
 /* Navbar ends */
 
 
@@ -132,11 +134,31 @@
 
 /* product card details starts */
 .my-card {
-    position: fixed;
+    /* position: fixed; */
     right: 20px;
-    top: 145px;
-    background-color: red;
+    background-color: #0B5D3E;
+    color: #fff;
     border-radius: 10px;
+    height: 520px;
+}
+
+.my-card h3 {
+    font-size: 16px;
+}
+
+.my-card h2 {
+    font-size: 22px;
+}
+
+.my-card span {
+    font-size: 24px;
+    color: #FDCF45;
+}
+
+.col .product {
+    background: #0b5d3e;
+    color: #FDCF45;
+    padding: 20px 0px;
 }
 
 /* product card details starts */
@@ -144,7 +166,72 @@
 
 
 /* product Review slide section starts */
+.c-rev {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
 
+.c-img img {
+    width: 125px;
+    height: 125px;
+    margin-left: 30%;
+    border: 1px solid black;
+    position: relative;
+    top: 25px;
+    border-radius: 100%;
+}
+
+.c-title p {
+    color: #9fb042;
+    text-align: center;
+}
+
+#review .title {
+    color: white;
+    font-size: 1em;
+    font-family: 'Berkshire Swash', cursive;
+    padding: 10px;
+}
+
+.c-info {
+    background-color: #0B5D3E;
+    width: 23vw;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+
+.c-title h1 {
+    color: #FDCF45;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .c-rev {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .c-info {
+        width: 70vw;
+        margin-left: -60px;   
+    }
+
+    .c-img img  {
+      margin-left: 50px;
+    }
+}
 /* product Review slide section ends */
 
 
@@ -293,98 +380,3 @@ footer {
 
 /* footer section  ends */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* <!-- Review Section --> */
-
-.c-rev  {
-    width: 90vw;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    gap: 7px;
-  }
-  .c-img img{
-    background: #003f5c;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-    width: 125px;
-    height: 125px;
-    margin-left: 40%;
-    border: 1px solid black;
-    position: relative;
-    z-index: 1; 
-    border-radius: 100%;
-  }
-
-  .c-title p{
-    color: #63c380;
-  }
-  #review .title{
-    color: white;
-    font-size: 1em;
-    font-family: 'Berkshire Swash', cursive;
-   padding: 10px;
-  }
-  .c-info{
-  background-color: rgb(32, 30, 129);
-  width: 23vw;
-  padding: 10px;
-  justify-content: center;
-  /* padding-left: 80px; */
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-align-items: center;
-  }
-
-  
-  .c-title h1 {
-    color: #FDCF45;
-    font-size: 30px;
-    font-weight: bolder;
-  }
-  
-  @media screen and (max-width: 768px){
-     
-    /* Testimonial */
-    .test{
-        width: 100%;
-        flex-direction: column;
-    }
-    .test-img img{
-      margin-top: 20px;
-        margin-left: -30px;
-        position: absolute;
-        top: 0;
-        left: 40%;
-        z-index: 1;
-    }
-    .test i{
-        font-size: 3em;
-        color: #6B36E0;
-        margin-top: 72px;
-        margin-left: 40px;
-    }
-    .test-info{
-    text-align: center;
-    width: 90%;
-    padding: 10px;
-    padding-top: 80px;
-    margin-top: 70px;
-    }
-    #testimonial {
-        height: auto;
-    }
-  }
-  
