@@ -25,7 +25,7 @@ const showDetails = (products) => {
 
          <div class="card ms-2 border-0 shadow  h-100 product">
            <div class="p-1">
-           <img src="${element.image}" class="card-img-top rounded-circle" alt="..."  height=150 >
+           <img src="${element.image}" class="card-img-top" alt="..."  height=150 >
            </div>
            <div class="card-body">
              <h5 class="card-title text-center">${element.title}</h5>
