@@ -175,6 +175,10 @@
     gap: 7px;
 }
 
+.c-img {
+    height: 525px;
+}
+
 .c-img img {
     width: 125px;
     height: 125px;
