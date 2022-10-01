@@ -64,14 +64,19 @@ const total = () => {
     const deliver = parseFloat(document.getElementById('delivery-charge').innerText);
     const shipping = parseFloat(document.getElementById('shipping-charge').innerText);
     const total = price + deliver + shipping;
-    document.getElementById('total').innerText = total;
+    document.getElementById('total').innerText = total.toFixed(2);
     tax(total);
 }
 
 const tax = (total) => {
     const taxadd= (total * 0.15);
-    document.getElementById('tax').innerText = taxadd;
-    document.getElementById('intotal').innerText = taxadd + total;
+    // taxadd.toFixed(2);
+    // total.toFixed(2)
+    document.getElementById('tax').innerText = taxadd.toFixed(2);
+    // console.log(taxadd);
+    // console.log(total);
+    const result= taxadd + total;
+    document.getElementById('intotal').innerText = result.toFixed(2);
 }
 
 
@@ -136,6 +141,7 @@ const ratings = (rate) => {
 
 const orderProducts = () => {
     const final= document.getElementById('intotal').innerText;
+    // final.toFixed(2);
     alert("Dear Sir," + "\n" + "You have to pay: " + final + "\n" + "Thank You!" + "\n" + "Regrads-" + "\n" + "Sorowar's Shopping Zone" );
 }
 
