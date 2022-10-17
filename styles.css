@@ -385,3 +385,6 @@ footer {
 
 /* footer section  ends */
 
+::selection{
+    background-color: #FDCF45;
+}
