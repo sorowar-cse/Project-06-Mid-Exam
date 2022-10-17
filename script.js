@@ -55,7 +55,7 @@ let count = 0;
 const addToCard = (id, price, newPrice) => {
     count = count + 1;
     document.getElementById('total-products').innerHTML = count;
-    updatePrice(price);
+    updatePrice(price*102.72);
     total();
 }
 
